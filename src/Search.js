@@ -17,6 +17,7 @@ function Search() {
         endDate: endDate,
         key: "selection"
     };
+    
 
     function handleSelect(ranges) {
         setStartDate(ranges.selection.startDate);
